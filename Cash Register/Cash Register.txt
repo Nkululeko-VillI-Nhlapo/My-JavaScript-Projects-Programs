@@ -1,0 +1,39 @@
+#Nhlapo Nkululeko
+
+This JavaScript code implements a simple purchase transaction system for a retail application. 
+It takes user input for the price of an item and the cash amount provided by the customer. Based on 
+these inputs, it calculates the change due to the customer and determines the denominations of coins 
+and notes to give back as change.
+
+Here's how the JavaScript code works:
+
+1. Event Listener: 
+When the DOM content is loaded, the script attaches an event listener to the "Purchase" button.
+
+2. calculateChange Function: 
+This function is called when the "Purchase" button is clicked. It performs  the following tasks:
+
+> Prompts the user to enter the price of the item in Rands (South African currency).
+> Retrieves the cash amount provided by the customer from the input field.
+> Calculates the total change due to the customer by subtracting the price from the cash amount, after 
+converting both to cents for accurate calculations.
+> Checks if the change is negative, indicating that the customer did not provide enough cash. If so, it 
+displays an alert message.
+> If the change is zero, indicating that the customer paid with exact cash, it displays a message 
+indicating no change is due.
+> If the change is positive, it calls the getChangeStatus function to determine the denominations of 
+coins and notes to give back as change.
+getChangeStatus Function: This function takes the total change due and the cash in the drawer 
+(cid array) as input. It iterates through the cid array, starting from the highest denomination, and
+ calculates the number of coins or notes to give as change. It then updates the changeStatus string 
+ with the denominations and amounts of change to be given back. If there's insufficient change in the 
+ drawer, it returns a status indicating so. Finally, it returns the formatted changeStatus string.
+
+> Overall, this JavaScript code provides a functional and interactive interface for handling purchase 
+transactions in a retail setting, with specific considerations for the South African context.
+
+
+
+
+
+

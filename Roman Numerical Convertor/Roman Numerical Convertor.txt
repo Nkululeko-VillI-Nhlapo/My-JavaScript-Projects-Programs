@@ -1,0 +1,33 @@
+#NhlapoNkululekoVillicent
+A Roman numeral converter is a tool or application that converts numbers between the Roman numeral 
+system and the Arabic numeral system (which is the standard numeric system used today). 
+> Converts 10 to X
+
+>The convertor is made with HTML,CSS, AND JS, it is interactive and fits with any screen
+
+#Html provides the platform and the structure, while css provides color and user friendly
+#interface, and js provides the functionality and the logic of the application.
+Here is the break down of the JS Code:
+1. Data Structure:
+> romanNumerals Array: This array contains objects that map Arabic values to their corresponding Roman 
+numerals. Each object has a value (an Arabic number) and a numeral (the corresponding Roman numeral).
+
+2. Function:
+> arabicToRoman Function: This function converts an Arabic number (integer) into a Roman numeral string.
+> Input Validation: The function first checks if the input number is less than or equal to 0 or greater 
+than or equal to 4000. If so, it returns an error message.
+> Conversion Logic: The function initializes an empty string (result). It then iterates through the 
+romanNumerals array, appending the corresponding Roman numeral to result and subtracting the value 
+from the input number until the number is reduced to zero.
+
+3. Event Listener:
+> Button Click Event Listener: This part adds an event listener to the "Convert" button.
+> Input Handling: When the button is clicked, it reads the value from the input field with the ID number.
+> Validation Check: If the input is empty, it displays an error message.
+> Conversion and Output: It converts the input number to an integer, calls the arabicToRoman function 
+with this number, and displays the result in the div with the ID output.
+
+4. Summary:
+> The code takes an Arabic number input from the user, validates it, converts it to a Roman numeral 
+if it is within the valid range, and displays the result. If the input is invalid, it shows an 
+appropriate error message.

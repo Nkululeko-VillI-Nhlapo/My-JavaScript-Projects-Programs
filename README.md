@@ -1,20 +1,15 @@
-# My-JavaScript-Projects-Programs
-My first 6 basic JavaScript codes,  Focusing on Conditionals, Loops, Arrays, Functions and many others JS concepts
+# JavaScript Projects
+### Nhlapo Nkululeko
+<hr>
 
-1. Counting Cards
-    - Casino Card Counting game, which determines wether a player should bet high or low, depending on a number of counts, if number of counts is > 0 then theu user is told to bet, if less or equal to then the user is told to hold their cards.
+## Cash Register
+This JavaScript-based project provides a simple transaction system for retail applications. It prompts users to enter the price of an item and the cash amount given, calculates the change, and determines the denominations of coins and notes to return. The script uses an event listener to handle user input, performs calculations, and ensures accurate change is returned based on the available denominations. The system is tailored to the South African currency context, making it suitable for local retail scenarios.
 
-2. Golf Code
-    - Is the game of Golf, each hole has a par, meaning, the average number of strokes  a golfer is expected to make in order to sink the ball in the hole to complete the play.Depending on how far above or below par your strokes are, there is a different nickname, e.g par = 5 and strokes = 1, the nickname is Hole-in-One.
+## Palindrome Checker
+The Palindrome Checker is an interactive web tool built with HTML, CSS, and JavaScript. It verifies whether a given string reads the same forward and backward, disregarding punctuation, case, and spacing. The JavaScript function cleans the input, reverses it, and compares it to determine if it is a palindrome. An event listener updates the result display based on user input, providing real-time feedback on the palindrome status of the entered text.
 
-3. Profile LockUp
-    - People profiles, containing their names, surnames, numbers and their personal likes
+## Roman Numeral Converter
+This Roman Numeral Converter, developed with HTML, CSS, and JavaScript, translates Arabic numbers into Roman numerals. The JavaScript code includes a data structure mapping Arabic values to Roman numerals and a conversion function that handles input validation and performs the numeral conversion. The interactive interface allows users to input numbers, convert them to Roman numerals, and view the results or error messages if the input is invalid.
 
-4. Random Numbers
-    - allows the user to give Two numbers, then generates numbers between those two, e.g 1 and 4, Output = 1234
-
-5. Record Collection
-    - It's a record collection of musicians, which the user can update by passing in arguments
-
-6. Recurssion Count
-    - Countdowm using recurssion
+## SA Telephone Validator
+The SA Telephone Validator is a web tool for validating South African phone numbers, created using HTML, CSS, and JavaScript. It checks if a phone number conforms to valid local, mobile, or international formats using regular expressions. The JavaScript implementation includes event listeners for checking and clearing results, validating user input, and displaying appropriate messages based on the validity of the phone number. The tool ensures accurate formatting and validation for South African phone numbers.

@@ -1,0 +1,45 @@
+#Nhlapo Nkululeko Villicent
+A South African (SA) telephone number validator is a tool or function that checks whether a given input 
+string(of numbers) conforms to the format of a valid South African phone number. South African phone 
+numbers have specific formats, whether they are local or mobile numbers, and they may also be in 
+international format.
+
+#Html provides the platform and the structure, while css provides color and user friendly
+#interface, and js provides the functionality and the logic of the application.
+
+> In the JavaScript code provided, we have implemented a SA telephone number validator by defining 
+regular expression patterns that match valid South African phone number formats. These patterns 
+cover both local and mobile numbers, as well as numbers in international format.
+
+>Here's how the JavaScript code works:
+
+1. Event Listeners: 
+We add event listeners to the "check" and "clear" buttons. When the "check" button is clicked, 
+the validatePhoneNumber function is called, and when the "clear" button is clicked, the clearResults 
+function is called.
+
+2. validatePhoneNumber Function:
+> Retrieves the user input from the input field and the results div element.
+> Trims the input to remove any leading or trailing whitespace.
+> Clears any previous results from the results div.
+> Checks if the input is empty. If it is, an alert is shown to prompt the user to provide a phone number.
+> Defines regular expression patterns for valid South African phone numbers. These patterns cover both local and mobile numbers, as well as international format numbers.
+> Uses the some method to check if the input matches any of the valid patterns.
+> Updates the results div with a message indicating whether the phone number is valid or invalid. It 
+also applies a corresponding CSS class (valid or invalid) for styling purposes.
+
+3. clearResults Function:
+> Clears the text content and class name of the results div, effectively resetting it to its initial 
+state. 
+
+> This implementation allows users to input a South African phone number, and upon clicking the 
+"check" button, the validator checks if the input follows the valid SA phone number formats. If it does,
+ a message indicating that the number is valid is displayed. Otherwise, a message indicating that the 
+ number is invalid is shown. The "clear" button allows users to reset the results and input fields for 
+ a fresh validation process.
+
+
+
+
+
+

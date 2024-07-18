@@ -1,0 +1,39 @@
+#NhlapoNkululekoVillicent
+A palindrome is a word or sentence that's spelled the same way both forward and backward,
+ignoring punctuation, case, and spacing.
+The checker is made with HTML,CSS, AND JS, it is interactive and fits with any screen
+
+Explanation of the JavaScript Code
+Function: isPalindrome(str)
+Purpose:
+To determine if a given string is a palindrome, ignoring non-alphanumeric characters, spaces, and case.
+Steps:
+
+1.Clean the Input:
+The function removes all non-alphanumeric characters from the input string and converts it to lowercase to 
+standardize it for comparison.
+
+2.Reverse the Cleaned String:
+It reverses the cleaned string to prepare for the palindrome check.
+Compare:
+The function compares the cleaned string to its reversed version. If they are identical, the function returns true, 
+indicating that the string is a palindrome. Otherwise, it returns false.
+
+3.Event Listener for the "Check" Button
+Purpose:
+To handle the user interaction when they click the "Check" button, checking if the entered text is a palindrome and 
+displaying the result.
+Steps:
+Retrieve Elements:
+It fetches the input field (#text-input) where the user enters text, and the result display area (#result).
+Get User Input:
+The trimmed value of the user's input is retrieved from the input field.
+
+4.Check for Empty Input:
+If the input field is empty, the function alerts the user to enter a value.
+Determine Palindrome Status:
+It calls the isPalindrome function with the user's input to determine if it is a palindrome.
+Display Result:
+
+It updates the result display area with a message indicating whether the input string is a palindrome or not. 
+The original input string is included in the message for clarity.
